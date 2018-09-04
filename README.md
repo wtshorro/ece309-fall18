@@ -8,7 +8,7 @@ Fall 2018
       * Repository cannot currently be set to private as educational account authorization is still pending. 
       * added @jamesmtuck , @hongxiongncsu , and @bahji as collaborators to the repository. 
   * Created Travis CI account and linked it with GitHub account.
-  * Wrote StringList.cpp Class and uploaded code to GitHub repository lib/StringList.cpp .
+  * Wrote #StringList.cpp Class and uploaded code to GitHub repository.
   * Edited make file.
   * Tested build using Travis CI.
   
