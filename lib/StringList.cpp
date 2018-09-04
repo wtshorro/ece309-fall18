@@ -106,46 +106,44 @@ public:
             tail = nodeToAdd;
         }
     }
-};
-
-void printN(int , List*);
-int main(void){
-  List* a = new List();
-  char* data = (char*)malloc(sizeof(char)*9);
-  data = (char*)"string 1";
-  a->push_back(data);
-  data = a->remove_front();
-  free(data);
-  printf("this is the data removed: %s\n", data);
-  data = (char*)malloc(sizeof(char)*9);
-  data = (char*)"string 2";
-  a->push_back(data);
-  data = (char*)malloc(sizeof(char)*9);
-  data = (char*)"string 3";
-  a->push_back(data);
-  data = (char*)malloc(sizeof(char)*9);
-  data = (char*)"string 4";
-  a->push_back(data);
-  printN(0,a);
-  printN(1,a);
-  printN(2,a);
-  printN(3,a);
-  printN(4,a);
-  int length = a->length();
-  printf("the length of the list is %d \n", length);
-  char* removed = a->remove_front();
-  printf("the following string was just removed: %s\n", removed);
-  printN(0,a);
-  printN(1,a);
-  printN(2,a);
-}
-void printN(int n, List *a){
-  char* string;
-  if(a->get(n) != NULL){
-      string = a->get(n);
-  }
-  else{
-      string = (char*)"there is no item at this index";
-  }
-  printf("this is the %d item in the list: %s\n",(n+1), string);
-}
+ };
+ int main(void){
+   return 0;
+ }
+//
+// void printN(int , List*);
+// int main(void){
+//   List* a = new List();
+//   char* data = (char*)"string 1";
+//   a->push_back(data);
+//   char* data2 = a->remove_front();
+//   printf("this is the data removed: %s\n", data2);
+//   data = (char*)"string 2";
+//   a->push_back(data);
+//   data = (char*)"string 3";
+//   a->push_back(data);
+//   data = (char*)"string 4";
+//   a->push_back(data);
+//   printN(0,a);
+//   printN(1,a);
+//   printN(2,a);
+//   printN(3,a);
+//   printN(4,a);
+//   int length = a->length();
+//   printf("the length of the list is %d \n", length);
+//   char* removed = a->remove_front();
+//   printf("the following string was just removed: %s\n", removed);
+//   printN(0,a);
+//   printN(1,a);
+//   printN(2,a);
+// }
+// void printN(int n, List *a){
+//   char* string;
+//   if(a->get(n) != NULL){
+//       string = a->get(n);
+//   }
+//   else{
+//       string = (char*)"there is no item at this index";
+//   }
+//   printf("this is the %d item in the list: %s\n",(n+1), string);
+// }
