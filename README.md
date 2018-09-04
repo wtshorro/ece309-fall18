@@ -10,6 +10,6 @@ Fall 2018
   * Created Travis CI account and linked it with GitHub account.
   * Wrote StringList Class and uploaded code to GitHub repository.
   * Edited make file.
-  * Tested building using Travis CI.
+  * Tested build using Travis CI.
   
 
