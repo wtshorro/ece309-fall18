@@ -1,5 +1,7 @@
 # ece309-fall18-wtshorro
-Repository for students to fork and modify.
+William T Shorrock
+ECE 309-001
+Fall 2018
 
 1. HW 2
-  1. HW 2 a
+
