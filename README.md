@@ -3,9 +3,7 @@ William T Shorrock\n
 ECE 309-001
 Fall 2018
 
-https://travis-ci.com/wtshorro/ece309-fall18-wtshorro.svg?token=wcHipE8qsihC8v1B1PCS&branch=master
-
-
+[![Build Status](https://travis-ci.com/wtshorro/ece309-fall18-wtshorro.svg?token=wcHipE8qsihC8v1B1PCS&branch=master)](https://travis-ci.com/wtshorro/ece309-fall18-wtshorro)
 
 **HomeWork 2**
   * Created GitHub Account and cloned ece309 repository.
