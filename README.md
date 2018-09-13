@@ -3,7 +3,7 @@ William T Shorrock\n
 ECE 309-001
 Fall 2018
 
-[![Build Status](https://travis-ci.org/wtshorro/ece309-fall18-unityid.svg?branch=master)](https://travis-ci.org/wtshorro/ece309-fall18-wtshorro)
+https://travis-ci.com/wtshorro/ece309-fall18-wtshorro.svg?token=wcHipE8qsihC8v1B1PCS&branch=master
 
 
 
