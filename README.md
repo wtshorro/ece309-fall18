@@ -25,5 +25,7 @@ Fall 2018
    * Implemented PList.h to contain structure of PList Class, including ListNode, Iterator as well as the Base Object class and its derivative classes IntegerObject, StringObject and DoubleObject.
    * Implemented PList.cpp to hold function defintions for PList Class, Iterator Class and ListNode Class.
    * Implemented PListTest.cpp to test functionality of PList Class.
+   * Updated all makefiles and README to reflect changes in GitHub Repository.
+   * Homework write up was completed and GitHub commit link was placed in submission document. 
   
 
