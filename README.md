@@ -20,5 +20,9 @@ Fall 2018
    * StringArrayList.cpp has been implemented and added to the repository
    * Make file has been updated to accomadate additon o StringArrayList.cpp
    * a reverse_iterator was created for completion of HW3 however was not added to this repoistory. 
+   
+   **HomeWork 4**
+    * Implemented PList.h to contain structure of PList Class, including ListNode, Iterator as well as the Base Object class and its derivative classes IntegerObject, StringObject and DoubleObject.
+    * 
   
 
