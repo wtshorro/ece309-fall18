@@ -22,7 +22,8 @@ Fall 2018
    * a reverse_iterator was created for completion of HW3 however was not added to this repoistory. 
    
    **HomeWork 4**
-    * Implemented PList.h to contain structure of PList Class, including ListNode, Iterator as well as the Base Object class and its derivative classes IntegerObject, StringObject and DoubleObject.
-    * 
+    * Implemented PList.h to contain structure of PList Class, including ListNode, Iterator as well as the Base Object class         and its derivative classes IntegerObject, StringObject and DoubleObject.
+    * Implemented PList.cpp to hold function defintions for PList Class, Iterator Class and ListNode Class.
+    * Implemented PListTest.cpp to test functionality of PList Class.
   
 
