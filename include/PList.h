@@ -33,7 +33,7 @@ class DoubleObject: public Object{
       printf("%f\n",dbl);
   }
 };
-class Plist{
+class PList{
   private:
     class ListNode{
       private:
@@ -63,8 +63,8 @@ class Plist{
         void decrement();
         void print();
     };
-    Plist();
-    Plist(Object* o);
+    PList();
+    PList(Object* o);
     Iterator begin();
     int length();
     bool empty();
