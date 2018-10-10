@@ -34,6 +34,7 @@ Fall 2018
    * Implemented IntArray.h to contain all necessary function defintions as well as private and public member datatypes.
    * Implemented IntArray.cpp with all necessary function defintions.
    * Uploaded code to Github and made necessary updates to makefiles.
+   * Uploaded TestCode, IntArrayTest.cpp and IntegerSetArrayTest.cpp 
    
   
 
