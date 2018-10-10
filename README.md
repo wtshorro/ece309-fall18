@@ -27,5 +27,13 @@ Fall 2018
    * Implemented PListTest.cpp to test functionality of PList Class.
    * Updated all makefiles and README to reflect changes in GitHub Repository.
    * Homework write up was completed and GitHub commit link was placed in submission document. 
+   
+   **HomeWork 5**
+   * Implemented IntegerSetArray.h to contain structure of the IntegerSetArray class which is derived from IntegerSet Abstract Base Class. IntegerSetArray implements all virtual functions and is no longer and ABC.
+   * Implemented IntegerSetArray.cpp with all necessary function defintions. 
+   * Implemented IntArray.h to contain all necessary function defintions as well as private and public member datatypes.
+   * Implemented IntArray.cpp with all necessary function defintions.
+   * Uploaded code to Github and made necessary updates to makefiles.
+   
   
 
