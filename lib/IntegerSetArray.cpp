@@ -16,7 +16,6 @@ bool IntegerSetArray::search(int x)const{
   if(empty()){
     return false;
   }
-  int i;
   for(int i = 0; i < size; i++){
     if(array[i]  == x){
       return true;
