@@ -24,7 +24,7 @@ protected:
 
 public:
    IntegerSet(int htsize):size(htsize) {}
-   virtual bool insert(int,int&) = 0;
+   virtual bool insert(int) = 0;
    virtual bool search(int) const = 0;
    virtual void remove(int) = 0;
 };
@@ -77,7 +77,8 @@ public:
    IntegerSetHT();
    IntegerSetHT(int htsize);
    IntegerSetHT(int htsize, int distance, bool square_hash);
-   virtual bool insert(int,int&) override;
+   virtual bool insert(int) override;
+   bool insert(int,int&);
    virtual bool search(int) const override;
    virtual void remove(int) override;
    void print(void);
@@ -93,7 +94,8 @@ protected:
   List *table;
 public:
    IntegerSetHTChain(int htsize);
-   virtual bool insert(int,int&) override;
+   virtual bool insert(int) override;
+   bool insert(int,int&);
    virtual bool search(int) const override;
    virtual void remove(int) override;
 };
