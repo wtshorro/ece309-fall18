@@ -14,4 +14,4 @@ libece309.a: $(OBJ)
 	$(AR) -r $@ $(OBJ) 
 
 %.o:%.cpp
-	$(CXX) -c -o $@ -I . -I ../include $< -Wall -Werror
+	$(CXX) -c -o $@ -I . -I ../include $< -std=c++11 -Wall -Werror
