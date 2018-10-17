@@ -26,7 +26,7 @@ int main()
     i++;
   }
   printf("There were %d collisions and %d failures when trying to insert %d items\n", inserts_with_collisions, failures, i);
-  delete(probe_hash);
+
   IntegerSetHT* probe_mid_square_hash = new IntegerSetHT(1000,20,true);
   r = 0;
   i = 0;
@@ -48,7 +48,7 @@ int main()
     i++;
   }
   printf("There were %d collisions and %d failures when trying to insert %d items\n", inserts_with_collisions, failures, i);
-  delete(probe_mid_square_hash);
+
 
   IntegerSetHT set;
   r = 0;
