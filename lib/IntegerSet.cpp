@@ -110,6 +110,7 @@ void IntegerSetHT::remove(int data)
 IntegerSetHTChain::IntegerSetHTChain(int htsize)
 :IntegerSet(htsize)
 {
+  square_hash = false;
   table = new List[size];
 }
 
