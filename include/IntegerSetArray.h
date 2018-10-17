@@ -13,9 +13,9 @@ public:
       array[i] = -1;
     }
   }
-  bool insert(int);
-  bool search(int) const;
-  void remove(int);
+  virtual bool insert(int);
+  virtual bool search(int) const;
+  virtual void remove(int);
   bool empty()const;
   ~IntegerSetArray(){
     free(array);
