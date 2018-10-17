@@ -98,5 +98,5 @@ public:
    bool insert(int,int&);
    virtual bool search(int) const override;
    virtual void remove(int) override;
-};*//
+};*/
 #endif //INTEGERSET_H
