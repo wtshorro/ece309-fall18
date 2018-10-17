@@ -106,7 +106,7 @@ void IntegerSetHT::remove(int data)
    index = (index+1) % size;
   }
 }
-
+/**
 IntegerSetHTChain::IntegerSetHTChain(int htsize)
 :IntegerSet(htsize)
 {
@@ -145,4 +145,4 @@ void IntegerSetHTChain::remove(int data)
      prev = it;
      it.increment();
    }
-}
+}**/
