@@ -1,5 +1,6 @@
-#include "IntegerSetArray.h"
 #include <stdlib.h>
+#include "IntegerSetArray.h"
+
 
 bool IntegerSetArray::insert(int x){
   int i;
