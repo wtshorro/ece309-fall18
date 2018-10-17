@@ -25,7 +25,24 @@ IntegerSetHT::IntegerSetHT(int htsize, int distance, bool hash_type):IntegerSet(
   table[i] = empty_since_start;
   square_hash = hash_type;
 }
-
+bool IntegerSetHT::insert(int data)
+{
+  int index = hash(data);
+  int bucketsProbed = 0;
+  while( bucketsProbed++ < probeDistance )
+  {
+   if ( table[index] < 0 )
+   {
+     // if the entry is not being used, put the
+    // data there
+     table[ index ] = data;
+     return true;
+   }
+   index = (index+1) % size;
+  }
+  // otherwise give up
+   return false;
+}
 bool IntegerSetHT::insert(int data, int& collision)
 {
   int index = hash(data);
