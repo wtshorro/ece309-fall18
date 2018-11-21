@@ -18,7 +18,7 @@ Fall 2018
    * Updated Readme to show build status.
    * Repository is now set to private and all necessary collaborators have been added. 
    * StringArrayList.cpp has been implemented and added to the repository
-   * Make file has been updated to accomadate additon o StringArrayList.cpp
+   * Make file has been updated to accomadate additon o StringArrayList.cpp.
    * a reverse_iterator was created for completion of HW3 however was not added to this repoistory. 
    
    **HomeWork 4**
@@ -34,7 +34,14 @@ Fall 2018
    * Implemented IntArray.h to contain all necessary function defintions as well as private and public member datatypes.
    * Implemented IntArray.cpp with all necessary function defintions.
    * Uploaded code to Github and made necessary updates to makefiles.
-   * Uploaded TestCode, IntArrayTest.cpp and IntegerSetArrayTest.cpp 
+   * Uploaded TestCode, IntArrayTest.cpp and IntegerSetArrayTest.cpp.
+   
+   **HomeWork 10**
+   * Implmented IntInf.h to strucutre IntInf class.
+   * Implemented IntInf.cpp to define behavior for operator overloads.
+   * Implemented TestIntInf to test operator overloads and make sure they are functioning properly
+   * Restructured MaxHeap to become a MinHeap
+   * Created functions to change how Djikstras was implemented to use the MinHeap instead of a list
    
   
 
