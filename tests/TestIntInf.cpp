@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "IntInf.cpp"
+#include "IntInf.h"
 
 int main(void){
   IntInf a(5);//num
