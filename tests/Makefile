@@ -1,6 +1,6 @@
 
 # list the name of each file (without the .cpp file at the end)
-EXE = example PListTest IntArrayTest IntegerSetArrayTest IntegerSetTest
+EXE = example PListTest IntArrayTest IntegerSetArrayTest IntegerSetTest ShortestPathTest
 
 all: $(EXE)
 
