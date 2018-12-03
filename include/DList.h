@@ -39,7 +39,7 @@ public:
 
     friend class DList;
   };
-}
+
 
 public:
   DList();
@@ -50,5 +50,5 @@ public:
 
   iterator begin() { return iterator(head); }
 };
-
+}
 #endif // DLIST_H
