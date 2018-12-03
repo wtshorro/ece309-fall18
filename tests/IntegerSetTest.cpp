@@ -2,6 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 #include "IntegerSet.h"
+using namespace ece309;
+
 int main()
 {
   IntegerSetHT* probe_hash = new IntegerSetHT(1000,20,false);
