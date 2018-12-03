@@ -1,3 +1,4 @@
+namespace ece309{
 class IntInf{
 public:
   int num;
@@ -22,3 +23,4 @@ public:
   IntInf operator-(const IntInf& rhs)const;
   void print();
 };
+}
