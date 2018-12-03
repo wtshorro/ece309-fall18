@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "IntInf.h"
 
+namespace ece309{
+  
 bool IntInf::getPosInf() const{
   return posInf;
 }
@@ -165,4 +167,5 @@ void IntInf::print(){
     printf("%d", num);
   }
   printf("\n");
+}
 }
