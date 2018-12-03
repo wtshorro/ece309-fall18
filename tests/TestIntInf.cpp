@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "IntInf.h"
 
+using namespace ece309;
+
 int main(void){
   IntInf a(5);//num
   printf("creating object a: ");
