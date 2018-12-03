@@ -1,3 +1,4 @@
+namespace ece309{
 class MinHeap {
 private:
   class V {
@@ -43,3 +44,4 @@ public:
   bool empty();
   bool remove(int &); // remove the max value
 };
+}
