@@ -1,6 +1,7 @@
 #include "IntegerSet.h"
 #include <stdlib.h>
 
+namespace ece309{
 class IntegerSetArray: public IntegerSet{
 private:
   int* array;
@@ -21,3 +22,4 @@ public:
     free(array);
   }
 };
+}
