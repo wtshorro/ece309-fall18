@@ -1,4 +1,5 @@
 //************************** PList.h ***************************//
+namespace ece309{
 class Object{
   private:
   public:
@@ -72,5 +73,6 @@ class PList{
     bool remove_front(Object&);
     bool get(int n, Object*);
 };
+}
 
 //************************** End PList.h ***************************//
