@@ -2,6 +2,8 @@
 #include<stdio.h>
 #include "PList.h"
 
+using namespace ece309;
+
 int main(void){
   PList a;
   a.push_back(new StringObject((char*)"I'm a String"));
