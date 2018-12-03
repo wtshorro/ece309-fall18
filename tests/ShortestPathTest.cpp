@@ -6,6 +6,7 @@
 #include "MinHeap.h"
 #include "Graph.h"
 
+using namespace ece309;
 
 bool doesPathExist(Graph &g, int *path, int length) {
   for (int i = 0; i < length - 1; i++) {
