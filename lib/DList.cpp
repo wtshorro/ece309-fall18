@@ -1,6 +1,6 @@
 #include "DList.h"
 #include <stdio.h>
-
+namespace ece309{
 DList::DList() {
   // initialize empty list
   head = NULL;
@@ -57,4 +57,5 @@ void DList::erase(DList::iterator it) {
   delete it
       .node; // delete the node; not shown in zyBook, but necessary in C/C++
   // iterator is now invalid, caller should not use it again
+}
 }
