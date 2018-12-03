@@ -1,5 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
+
+namespace ece309{
+  
 class StringArrayList {
 private:
   char** list;
@@ -117,6 +120,7 @@ StringArrayList::~StringArrayList(){
   free(list);
   head = -1;
   tail = -1;
+}
 }
 int main(void){
   return 0;
