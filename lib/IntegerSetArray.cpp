@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include "IntegerSetArray.h"
 
+namespace ece309{
 
 bool IntegerSetArray::insert(int x){
   int i;
@@ -46,4 +47,5 @@ void IntegerSetArray::ShiftArray(){
 }
 bool IntegerSetArray::empty()const{
   return array[0]==-1;
+}
 }
