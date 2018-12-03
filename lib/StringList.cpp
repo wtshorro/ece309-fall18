@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+namespace ece309{
 class List {
 private:
   class ListNode {
@@ -107,6 +108,7 @@ public:
         }
     }
  };
+}
  int main(void){
    return 0;
  }
