@@ -1,3 +1,4 @@
+namespace ece309{
 class IntArray {
 private:
    int *array;
@@ -20,3 +21,4 @@ public:
    int getLength();
 
 };
+}
