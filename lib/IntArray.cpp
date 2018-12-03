@@ -6,6 +6,7 @@
 #define ASCII_SPACE (32)
 #define ASCII_NULL  (0)
 
+namespace ece309{
 IntArray::IntArray(int size, int val = 0):length(size){
   array = new int[length];
   for(int i = 0; i < length; i++){
@@ -160,4 +161,5 @@ void IntArray::set(int index, int val){
 }
 int IntArray::getLength(){
   return length;
+}
 }
