@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include "PList.h"
 
+namespace ece309{
 //ListNode Definitions
 PList::ListNode::ListNode(){
 }
@@ -127,6 +128,7 @@ for(i = 0; i < n; i++){
 }
 copy = temp->getObj();
 return true;
+}
 }
 
 //End PList definitions
