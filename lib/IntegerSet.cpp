@@ -1,7 +1,7 @@
 #include "IntegerSet.h"
 #include <stdio.h>
 
-
+namespace ece309{
 
 // can only hold positive integers
 IntegerSetHT::IntegerSetHT():IntegerSet(100){
@@ -105,6 +105,7 @@ void IntegerSetHT::remove(int data)
    }
    index = (index+1) % size;
   }
+}
 }
 /**
 IntegerSetHTChain::IntegerSetHTChain(int htsize)
