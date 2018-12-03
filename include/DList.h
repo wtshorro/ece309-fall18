@@ -3,9 +3,9 @@
 
 #include <stdlib.h>
 
-namespace ece309{
-using Item = int;
 
+using Item = int;
+namespace ece309{
 class DList {
 private:
   // DListNode represents each
