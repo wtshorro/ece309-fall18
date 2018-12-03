@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 
+namespace ece309{
 using Item = int;
 
 class List {
@@ -68,5 +69,6 @@ public:
   void removeAfter(iterator it); // pseudocode in zyBook 2.4
   void insertAfter(iterator it, Item item);
 };
+}
 
 #endif //LIST_H
