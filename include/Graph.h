@@ -3,7 +3,7 @@
 #define GRAPH_H
 
 #include "List.h"
-
+namespace ece309{
 class Graph {
 protected:
   int numNodes;
@@ -58,6 +58,7 @@ public:
     return weights[src * numNodes + dest];
   }
 };
+}
 
 
 class node_helper {
