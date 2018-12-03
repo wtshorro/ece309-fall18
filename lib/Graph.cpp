@@ -5,7 +5,7 @@
 #include "IntegerSet.h"
 #include "Queue.h"
 #include <stdio.h>
-
+namespace ece309{
 DenseGraph::DenseGraph(int n) : Graph(n) {
   edges = new bool[numNodes * numNodes];
   for (int i = 0; i < numNodes * numNodes; i++)
@@ -29,4 +29,5 @@ void WeightedDenseGraph::addWeight(int from, int to, int weight) {
 void WeightedDenseGraph::addEdge(int from, int to, int weight) {
   addEdge(from, to);
   addWeight(from, to, weight);
+}
 }
