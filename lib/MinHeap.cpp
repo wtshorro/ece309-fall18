@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include "MinHeap.h"
 
+namespace ece309{
 void MinHeap::percolate_up(int index) {
   while (index > 0) {
     int parent_index = (index - 1) / 2;
@@ -68,4 +69,5 @@ bool MinHeap::remove(int &val) {
 }
 bool MinHeap::empty(){
   return nextIndex == 0;
+}
 }
