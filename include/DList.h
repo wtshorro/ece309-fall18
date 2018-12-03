@@ -3,6 +3,7 @@
 
 #include <stdlib.h>
 
+namespace ece309{
 using Item = int;
 
 class DList {
@@ -38,6 +39,7 @@ public:
 
     friend class DList;
   };
+}
 
 public:
   DList();
