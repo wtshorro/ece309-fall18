@@ -1,5 +1,7 @@
 #include "Queue.h"
 
+namespace ece309{
+  
 void Queue::push(Item item)
 {
   list.append(item);
@@ -21,4 +23,5 @@ Item& Queue::peek()
 bool Queue::empty()
 {
   return list.empty();
+}
 }
